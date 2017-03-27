@@ -13,6 +13,17 @@ header{
 	border-bottom-color:#cccccc;
 }
 
+aside{
+	float:right;
+	margin:30px 50px 0px 0px;
+	width:30%;
+	height:250px;
+	background-color:#ffffff;
+	border-width:1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
 #name{
 	float:left;
 	background-color:#4aaaa5;
@@ -60,13 +71,20 @@ header{
 	border-color:#cccccc;
 }
 
-#connect{
-
-}
-
 #image{
 	float:left;
 	margin:30px 30px 10px 30px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#cccccc;
+}
+
+/*To use for logo icons under connect me*/
+.logo{
+	float:left;
+	height: 64px;
+	width: 64px;
+	margin: 30px 30px 30px 30px;
 }
 
 .white-text{
