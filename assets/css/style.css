@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 header{
@@ -8,6 +7,7 @@ header{
 	/*Any way to do this with a percentage/get heigh to just go to bottom of my boxes? w/o using px*/
 	height:112px;
 	width:100%;
+	background-color:#ffffff;
 	border-bottom-width:10px;
 	border-bottom-style:solid;
 	border-bottom-color:#cccccc;
@@ -42,15 +42,68 @@ header{
 	margin:3% 5% 0% 3%;
 }
 
-a{
-	color:#222222;
-	text-decoration: none;
+#main-content{
+	overflow:auto;
+	clear:both;
+	background-color:#eeedeb;
+	height:600px;
+}
+
+#aboutme{
+	float:left;
+	background-color:#FFFFFF;
+	width:45%;
+	height:475px;
+	margin:30px 0px 0px 50px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
+#connect{
+
+}
+
+#image{
+	float:left;
+	margin:30px 30px 10px 30px;
 }
 
 .white-text{
 	color:#FFFFFF;
 }
 
+.margin{
+	margin:30px 0px 0px 30px;
+}
+
+.horizontalmargin{
+	margin:10px 30px 0px 30px;
+}
+
+.specialmargin{
+	margin:30px 30px 20px 50px;
+}
+
+/*to float left*/
+.left{
+	float:left;
+}
+
+a{
+	color:#222222;
+	text-decoration: none;
+}
+
 h1,h2,h3{
 	color: #4aaaa5;
+}
+
+/*Had to do this because H1 was appearing smaller than H2, http://stackoverflow.com/questions/22898559/why-is-h2-larger-than-h1 */
+h1{
+	font-size:2.5em;
+}
+
+hr{
+	margin:0px 30px 0px 30px;
 }
