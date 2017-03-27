@@ -1,0 +1,30 @@
+header{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#name{
+	float:left;
+	background-color:#4aaaa5;
+	margin:3% 0% 0% 5%;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+#about-link{
+	float:right;
+	margin:3% 3% 0% 3%;
+}
+
+#portfolio-link{
+	float:right;
+	margin:3% 3% 0% 3%;
+}
+
+#contact-link{
+	float:right;
+	margin:3% 5% 0% 3%;
+}
+
+a{
+	color:#;
+}
