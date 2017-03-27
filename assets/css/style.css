@@ -1,5 +1,16 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 header{
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	/*Any way to do this with a percentage/get heigh to just go to bottom of my boxes? w/o using px*/
+	height:112px;
+	width:100%;
+	border-bottom-width:10px;
+	border-bottom-style:solid;
+	border-bottom-color:#cccccc;
 }
 
 #name{
@@ -7,6 +18,7 @@ header{
 	background-color:#4aaaa5;
 	margin:3% 0% 0% 5%;
 	text-align:center;
+	/*--Why doesn't this make my name white?  Created white-text class to get it to work*/
 	color:#FFFFFF;
 }
 
@@ -31,5 +43,14 @@ header{
 }
 
 a{
-	color:#;
+	color:#222222;
+	text-decoration: none;
+}
+
+.white-text{
+	color:#FFFFFF;
+}
+
+h1,h2,h3{
+	color: #4aaaa5;
 }
