@@ -5,12 +5,16 @@
 header{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	/*Any way to do this with a percentage/get heigh to just go to bottom of my boxes? w/o using px*/
-	height:112px;
+	height:85px;
 	width:100%;
 	background-color:#ffffff;
 	border-bottom-width:10px;
 	border-bottom-style:solid;
 	border-bottom-color:#cccccc;
+}
+
+.push{
+	height:85px;
 }
 
 section{
@@ -19,7 +23,7 @@ section{
 
 aside{
 	float:right;
-	margin:30px 50px 0px 0px;
+	margin:30px 75px 0px 0px;
 	width:30%;
 	height:250px;
 	background-color:#ffffff;
@@ -43,7 +47,8 @@ footer{
 #name{
 	float:left;
 	background-color:#4aaaa5;
-	margin:3% 0% 0% 5%;
+	margin:15px 0px 0px 75px;
+	width:300px;
 	text-align:center;
 	/*--Why doesn't this make my name white?  Created white-text class to get it to work*/
 	color:#FFFFFF;
@@ -51,37 +56,49 @@ footer{
 
 #about-link{
 	float:right;
-	margin:3% 1% 0% 1%;
+	margin: 10px 10px 0px 10px;
 }
 
 #tutor-link{
 	float:right;
-	margin:3% 1% 0% 1%;
+	margin:10px 10px 0px 10px;
 }
 
 #portfolio-link{
 	float:right;
-	margin:3% 1% 0% 1%;
+	margin:10px 10px 0px 10px;
 }
 
 #contact-link{
 	float:right;
-	margin:3% 1% 0% 1%;
+	margin:10px 75px 0px 10px;
 }
 
 #main-content{
 	overflow:auto;
 	clear:both;
 	background-image:url('../images/bgpattern.png');
-	height:600px;
+	height:900px;
+	margin: 0 auto -85px;
 }
 
 #aboutme{
 	float:left;
 	background-color:#FFFFFF;
-	width:45%;
+	width:600px;
 	height:475px;
-	margin:30px 0px 0px 50px;
+	margin:30px 0px 0px 75px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+
+#portfolio-content{
+	float:left;
+	background-color:#FFFFFF;
+	width:600px;
+	height:600px;
+	margin:30px 0px 0px 75px;
 	border-width: 1px;
 	border-style:solid;
 	border-color:#cccccc;
